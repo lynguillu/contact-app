@@ -1,0 +1,39 @@
+// Place all the styles related to the Contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-image: url('blue.jpg');
+padding-right: 2cm;
+padding-left: 2cm;
+
+h1 {
+  font-family: Varela;
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 1cm;
+  }
+
+  h1 {
+    color: #ffffff;
+}
+
+h3 {
+    color: #2f5ba3;
+    font-family: Varela;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+}
+ h6 {
+    color: 2f5ba3;
+    text-align: cleft;
+}
+}

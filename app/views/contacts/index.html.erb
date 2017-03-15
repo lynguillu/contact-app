@@ -1,0 +1,15 @@
+<h1>Contact Page</h1>
+<div class="row">
+
+<% @contacts.each do |contact| %>
+<div class="col-md-4">
+    <div class="well">
+    <h6>Modified on: <%= contact.friendly_created_at%></h>
+  <h3><b>Last Name:</b> <%= contact.last_name %></h3>
+  <h3><b>First Name:</b> <%= contact.first_name %></h3>
+  <h3><b>Email:</b> <%= contact.email %></h3>
+  <h3><b>Phone:</b> <%= contact.phone %></h3>
+</div>
+</div>
+<% end %>
+</div>
